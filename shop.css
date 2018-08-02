@@ -1,5 +1,9 @@
 *{
-    box-sizing: border-box;
+    box-sizing:border-box;
+    margin:0;
+}
+.new {
+    font-family: 'Pacifico', cursive !important;
 }
 body{
     background-color:white;
@@ -9,11 +13,13 @@ body{
 .topnav {
     background-color:white;
     overflow: hidden;
+
+    
 }
 
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav a  {
   float: left;
   color: black;
   text-align: center;
@@ -36,6 +42,7 @@ body{
 /* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
+  
 }
 .carousel-caption{
     padding-top:40px;
@@ -55,16 +62,18 @@ body{
     cursor: pointer; 
 }
 /* Clear floats after the columns */
-.row:after {
+.products .row:after {
     content: "";
     display: table;
     clear: both;
 }
 .heading{
     margin:20px;
+    font-size:32px;
 }
 .head{
     margin-top:20px;
+    font-size:34px;
 }
 .products{
     background-color:gainsboro;
@@ -82,6 +91,31 @@ body{
 .footer {
     background-color:white;
     color:black;
-    margin-top:40px;
+    width:100%;
 
+
+}
+.box1{
+    width:100% !important;
+    height:150px;
+    padding:30px 0 0px 0px;
+    background-color:white;
+    margin-top:40px;
+    margin-right: 0px !important;
+}
+hr{
+    border:1px solid black;
+}
+.img-carousel{
+    margin-left:200px;
+    border-radius:2px;
+}
+.carousel-item{
+    background-color:lightpink;
+}
+#logo{
+    width:50px;
+    height:50px;
+    align-self: left;
+    margin-left:30px;
 }
